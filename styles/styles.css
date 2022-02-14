@@ -1,0 +1,209 @@
+body{
+    background: black;
+}
+
+#parentDiv{
+    display: flex;
+   
+}
+
+#iconSection{
+    height: 100vh;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#toggleIcon{
+    display: flex;
+    flex-grow: 1;
+    width: fit-content;
+}
+
+i{
+    color: white;
+}
+
+#middleIcons{
+    flex-grow: 1;
+    width: fit-content;
+}
+
+.icons{
+    padding: 5px;
+}
+
+#downloadIcon{
+    padding: 5px;
+    width: fit-content;
+}
+
+
+
+
+#progressBarHTML{
+    content: 90%;
+    text-align: center;
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarHTML::after{
+    text-align: center;
+    content: "90%";
+    display: block;
+    background: orange;
+    width: 90%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+#progressBarCSS{
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarCSS::after{
+    text-align: center;
+    content: "80%";
+    display: block;
+    background: orange;
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progressBarCPP{
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarCPP::after{
+    text-align: center;
+    content: "90%";
+    display: block;
+    background: orange;
+    width: 90%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progressBarPython{
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarPython::after{
+    text-align: center;
+    content: "70%";
+    display: block;
+    background: orange;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progressBarJava{
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarJava::after{
+    text-align: center;
+    content: "60%";
+    display: block;
+    background: orange;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progressBarNode{
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarNode::after{
+    text-align: center;
+    content: "60%";
+    display: block;
+    background: orange;
+    width: 60%;
+    height: 100%;
+    border-radius: 9px;
+}
+#progressBarjs{
+    background: #333;
+    border-radius: 13px;
+    height: 20px;
+    width: 200px;
+    padding: 3px;
+}
+
+#progressBarjs::after{
+    text-align: center;
+    content: "70%";
+    display: block;
+    background: orange;
+    width: 70%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+
+h2{
+    display: inline-block;
+    color: white;
+    border: 2px solid gray;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px  whitesmoke;
+}
+
+#about_myself{
+    display: inline-block;
+    color: white;
+    border: 2px solid gray;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px  whitesmoke;
+}
+
+span{
+    color: white;
+    padding: 5px;
+}
+
+
+#details{
+    padding: 2%;
+}
+
+#skills{
+    justify-content: center;
+}
+
+.skillName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px  whitesmoke;
+    justify-content: space-between;
+    margin: 10px;
+}
